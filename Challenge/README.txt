@@ -1,0 +1,5 @@
+For my neural network model I chose 2 layers with 12 neurons in the first layer and 6 in the second.  I chose these numbers because it is recommended that 2 to 3 times the number of variables be used for the number of neurons.  Additionally, two layers were chosen to help identify nonlinear characteristics of the input data without requiring more input data.
+
+I was not able to achieve the target model performance of 75%.  As seen in the jupyter notebook file, I increased the number of epochs, added additional layers, and added additional neurons.  None of these changes increased the performance.  All scenarios yielded an accuracy of about 70%.  
+
+If I were to implement a different model to solve this problem I would choose a support vector machine (SVM).  SVMs can build adequate models with linear or nonlinear data.  I believe the simplicity of the model would work well here.
